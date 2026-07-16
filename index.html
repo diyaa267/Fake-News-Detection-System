@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detection</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <h1><i class="fa-solid fa-newspaper"></i> Fake News Detection System</h1>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/detect">Detect</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h2 style="text-align:center;">
+        🤖 AI Powered Fake News Detection
+    </h2>
+
+    <p style="text-align:center;font-size:20px;margin-top:15px;">
+        Detect fake and real news instantly using Machine Learning.
+    </p>
+
+    <div style="text-align:center;margin-top:40px;">
+
+        <a href="/detect">
+            <button>
+                🔍 Detect News
+            </button>
+        </a>
+
+    </div>
+
+    <br><br>
+
+    <div style="display:grid;
+                grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+                gap:25px;">
+
+        <div class="card">
+            <h3>🤖 AI Model</h3>
+            <p>Machine Learning Based Detection</p>
+        </div>
+
+        <div class="card">
+            <h3>⚡ Fast Prediction</h3>
+            <p>Instant News Verification</p>
+        </div>
+
+        <div class="card">
+            <h3>📰 News Analysis</h3>
+            <p>Real vs Fake Classification</p>
+        </div>
+
+        <div class="card">
+            <h3>📊 Dashboard</h3>
+            <p>View Project Statistics</p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Fake News Detection System | Developed by Diya Patel
+</footer>
+
+</body>
+</html>

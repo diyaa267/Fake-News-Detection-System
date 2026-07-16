@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<header>
+    <h1>Dashboard</h1>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/detect">Detect</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h2>Project Dashboard</h2>
+
+    <div class="card">
+        <h3>AI Model</h3>
+        <p>Machine Learning Model : Logistic Regression</p>
+    </div>
+
+    <div class="card">
+        <h3>Dataset</h3>
+        <p>CSV News Dataset</p>
+    </div>
+
+    <div class="card">
+        <h3>Accuracy</h3>
+        <h1 style="color:green;">100%</h1>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Fake News Detection System</p>
+</footer>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
